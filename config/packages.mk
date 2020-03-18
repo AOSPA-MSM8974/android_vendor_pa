@@ -13,9 +13,6 @@
 # limitations under the License.
 
 # Paranoid Android packages
-ifneq ($(TARGET_USES_AOSP_CAMERA),true)
-PRODUCT_PACKAGES += ParanoidCamera
-endif
 PRODUCT_PACKAGES += \
     BasicSmsReceiver \
     Messaging \
@@ -31,6 +28,7 @@ PRODUCT_PACKAGES += \
     MarkupGoogle \
     Longshot \
     ParanoidQuickStep \
+    Snap \
     ThemePicker \
     #ParanoidHub
 
