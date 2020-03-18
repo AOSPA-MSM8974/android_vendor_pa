@@ -17,6 +17,10 @@ ifneq ($(TARGET_USES_AOSP_CAMERA),true)
 PRODUCT_PACKAGES += ParanoidCamera
 endif
 PRODUCT_PACKAGES += \
+    BasicSmsReceiver \
+    Messaging \
+    messaging \
+    ExactCalculator \
     ChromePublic \
     SoundRecorder \
     WallpaperPicker \
